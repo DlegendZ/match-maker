@@ -1,35 +1,64 @@
-# Match Maker Review
+# Match Maker 🧩
 
-## Project Overview
-Match Maker Review is a Godot Engine game that allows players to engage in matchmaking reviews, providing a platform for players to rate their matchmaking experience. This project is designed to be user-friendly, efficient, and engaging.
+A **2D memory-matching (pairs) game** built with **Godot Engine** using **GDScript**.
+Flip tiles, find matching pairs, and clear the board in as few moves as possible.
 
-## Installation Instructions
-To get started with Match Maker Review, follow these steps:
+![Screenshot](https://github.com/user-attachments/assets/03f78314-009b-4138-bb73-b2f909661e0a)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DlegendZ/match-maker-review.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd match-maker-review
-   ```
-3. Open the project in the Godot Engine (ensure you have Godot installed).
+---
 
-## Usage
-1. Launch the game from the Godot Engine.
-2. Follow the on-screen instructions to start matchmaking.
-3. Review and rate your experience as necessary.
+## 🚀 Features
 
-## Features
-- User-friendly interface
-- Real-time matchmaking
-- Rating and feedback system
-- Interactive gameplay mechanics
-- Supports various platforms
+* Classic **tile-flip memory matching** gameplay
+* **4 difficulty levels** — 2×2, 4×4, 6×6, and 8×8 grids
+* Move counter, pairs-found counter, and elapsed-time tracking
+* Level select lobby and game-over summary screen
 
-## Contributing
-Contributions to Match Maker Review are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+---
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🧠 Built With
+
+| Technology        | Purpose                |
+| ----------------- | ---------------------- |
+| **Godot Engine**  | Game engine            |
+| **GDScript**      | Core game logic        |
+| **Scenes**        | Modular game structure |
+| **Singletons**    | Game/image/signal management |
+| **Assets folder** | Sprites & images       |
+
+---
+
+## ▶️ How to Play
+
+1. **Open in Godot Engine**
+
+   * Open the project folder in Godot.
+2. **Run the main scene**
+
+   * Press **Play** to start.
+3. **Controls**
+
+   * Select a level from the lobby
+   * Click tiles to flip and match pairs
+   * Clear all pairs to finish the level
+
+---
+
+## 🗂 Project Structure
+
+```
+match-maker/
+├── Assets/
+├── Scenes/
+├── Script/
+├── Singletons/
+├── icon.svg
+├── project.godot
+├── .gitignore
+└── LICENSE
+```
+
+* **Assets/** – Graphics & images
+* **Scenes/** – Godot scenes (levels, objects)
+* **Script/** – Game logic in GDScript
+* **Singletons/** – Autoload managers (game state, images, signals)
